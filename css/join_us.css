@@ -1,0 +1,18 @@
+.join-banner{width:100%;height:500px;background: url(../img/join1.jpg) top;}
+.headline{display: none;}
+.join-con{width:1200px;margin:50px auto;background: #fff;height:auto;overflow: hidden;}
+.join-con  .main_left_box{width:325px;height:auto; float:left; padding:0px 15px 0px 0px ;}
+.join-con .title_img{width:100%; height:auto; margin-bottom:50px;}
+.join-con  .main_left_box h2{  font-weight:normal; font-size: 18px; padding-top: 14px; padding-bottom: 12px; color: #f8b62d;}
+.join-con  .main_left_box p{ line-height: 24px; font-size:12px; color:#333333;}
+.join-con .main_right_box{width:810px; padding:0px 0px 0px 20px ;float:right; font-size:13px;line-height:26px;color:#263034; border-left:1px solid #dddddd;}
+.join-con .main_right_box .right_title{font-size:20px;font-weight:bold;}
+@media screen and (max-width: 450px){
+
+.join-banner{height:494px;margin-top:-100px;}
+.join-con{width:90%;margin:0 auto;}
+body #canvas{height:100%;width:100%;}
+body #ci-particles{text-align: center;}
+body .join-con .main_right_box{width:100%;margin-top:40px;}
+body .join-cen{text-align: center;display: inline-block;width:100%;}
+}
